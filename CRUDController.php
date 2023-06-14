@@ -23,10 +23,28 @@ class CRUDController extends Controller
         // View Page Senarai Data
         return view('tambah_data');
     }
+    
+    /* CARA 1 */
+    /* 
+    public function store(TambahValidation $request)
+    {
+        $data = [
+            'name' => $request->input('name'),
+            'nokp' => $request->input('nokp'),
+            'phone' => $request->input('phone'),
+            'email' => $request->input('email'),
+            'created_at' => now(),
+        ];
+        
+        // Simpan ke DB
+        DB::table('users')->insert($data);
 
-    /**
-     * Store a newly created resource in storage.
-     */
+        // Response
+        return redirect()->route('senarai_data')
+        ->with('success-insert', 'Rekod berjaya disimpan!');
+    }
+    */
+    
     public function store(Request $request)
     {
         // Storing Data To Database
@@ -57,7 +75,7 @@ class CRUDController extends Controller
     public function paparKemaskiniData($id)
     {
         // Edit Data
-        $data = DB::table('data')->where('id_data', '=', $id)->first();
+        $data = DB::table('data')->where('id_data', $id)->first();
         return view('kemaskini_data', compact('data'));
     }
 
