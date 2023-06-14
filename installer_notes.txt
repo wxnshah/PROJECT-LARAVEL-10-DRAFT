@@ -1,0 +1,17 @@
+/*----------------------------------------------------
+                  *SOURCE FILE*
+/*----------------------------------------------------
+BOOTSTRAP ADMIN DASHBOARD TEMPLATES - START BOOTSTRAP
+https://startbootstrap.com/template/sb-admin
+
+VISUAL STUDIO CODE (CODE EDITOR)
+https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+
+BOOTSTRAP TEMPLATES
+https://drive.google.com/drive/folders/1ykTOOBp_GMx3Ysq-5hICk6VcOnPLwTrK?usp=sharing
+
+INSTALLER COMPLETE (FOLDER)
+https://drive.google.com/drive/folders/1Q7Kot_k2qmQW3ilzrvurXiQHWruJ3Xwh?usp=sharing
+
+INSTALLER COMPLETE (ZIP)
+https://drive.google.com/file/d/15Q0bG9t2xkegHPQJlHHZE3nlUwctg3xv/view?usp=sharing
